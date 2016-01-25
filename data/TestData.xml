@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageresource>
+	<loginNormal>
+		<step id="1">
+			<type>id</type>
+			<value>com.feifan.o2o:id/jump</value>
+		</step>
+		<step id="2">
+			<type>id</type>
+			<value>com.feifan.o2o:id/input</value>
+			<inputvalue>automation</inputvalue>
+		</step>
+		<step id="3">
+			<type>id</type>
+			<value>com.feifan.o2o:id/radio_btn_man</value>
+		</step>
+		<step id="4">
+			<type>id</type>
+			<value>com.feifan.o2o:id/radio_btn_eighty</value>
+		</step>
+	</loginNormal>
+</pageresource>
