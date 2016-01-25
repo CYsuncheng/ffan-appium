@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="10">
+	<test name="Test" preserve-order="true">
+		<!-- <parameter name="username" value="13426490974"/> <parameter name="password" 
+			value="880129"/> -->
+		<classes>
+			<class name="com.wanda.dianshang.TestCase">
+				<groups>
+					<run>
+						<include name="SmokeTest" />
+					</run>
+				</groups>
+			</class>
+		</classes>
+		<!-- <classes> <class name="com.wanda.dianshang.FFanAutotestSmoke"/> <methods> 
+			<include name="A1_signinTest"/> <include name="A2_menuMyappsTest"/> <include 
+			name="A3_menuPushTest"/> <include name="A4_menuSettingsTest"/> </methods> 
+			</classes> -->
+	</test>
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite> 
